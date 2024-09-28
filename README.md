@@ -57,4 +57,10 @@ After selecting the best model for each pizza type, the notebook generates forec
 ## Usage
 Run the notebook:
 jupyter notebook dominos_time_series_forecasting.ipynb
+## Results
+The results, including forecasted sales quantities and purchase orders, will be saved in the following files:
+- dominos_forecasted_pizza_quantities.csv: Contains forecasted sales quantities for each pizza type.
+- dominos_final_purchase_order.csv: Contains the purchase order based on the forecasted quantities.
+## Contact
+For any questions or feedback, please reach out to shabana.backer@gmail.com.
 
