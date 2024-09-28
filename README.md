@@ -40,3 +40,21 @@ The Pizza_sale_new.csv file contains historical sales data for different pizza t
 - pizza_id: Unique identifier for each pizza type
 - date: Date of the sales record
 - quantity: Quantity of pizzas sold
+
+## Time Series Analysis
+This Jupyter notebook contains steps for data preprocessing, model training, evaluation, and forecasting.
+
+## Model Training
+- ARIMA/SARIMA: Train ARIMA and SARIMA models using the statsmodels library.
+- Prophet: Utilize the Prophet library for forecasting, suitable for handling seasonality and trends.
+- XGBoost: Implement XGBoost for regression modeling based on historical sales data.
+
+## Evaluation
+ - Calculate Mean Absolute Percentage Error (MAPE) to evaluate model performance.
+ - Select the best-performing model for each pizza based on the lowest MAPE.
+## Forecasting
+After selecting the best model for each pizza type, the notebook generates forecasts for the next week and saves the results.
+## Usage
+Run the notebook:
+jupyter notebook dominos_time_series_forecasting.ipynb
+
