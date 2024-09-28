@@ -37,6 +37,6 @@ pip install pandas numpy statsmodels prophet xgboost matplotlib seaborn
 ## Sales Data
 The Pizza_sale_new.csv file contains historical sales data for different pizza types, including the following columns:
 
-pizza_id: Unique identifier for each pizza type
-date: Date of the sales record
-quantity: Quantity of pizzas sold
+- pizza_id: Unique identifier for each pizza type
+- date: Date of the sales record
+- quantity: Quantity of pizzas sold
